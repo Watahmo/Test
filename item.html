@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V</title><style>body{background:#0a0b0d;color:#f3f4f6;font:900 11px sans-serif;margin:4px}.l,.c{display:flex;gap:6px;overflow-x:auto;background:#1a1d24;padding:4px;border-radius:6px;margin-bottom:4px}.l div{white-space:nowrap}input,button{background:#000;border:1px solid #ffffff14;color:#fff;padding:5px;border-radius:4px;font-weight:900}input{flex:1;min-width:60px}.w{overflow-x:auto}.h,.i{display:grid;grid-template-columns:130px 70px 40px 70px;padding:5px;background:#1a1d24;margin-bottom:2px;border-radius:4px;align-items:center;min-width:310px}.h{background:none;color:#4b5563}.b{color:#3b82f6}.r{color:#ef4444}.pu{color:#a855f7}.st{color:#9ca3af}.fl{color:#c084fc}</style></head>
+<body>
+  
+  <div class="c">
+  <button onclick="location.href='Unit Value List.html'">🛡️ Unit List</button>
+  <button onclick="location.href='Item Value List.html'">📦 Item List</button>
+</div>
+
+<div class="l"><div>🔥 High</div><div>📊 Med</div><div>✖️ Low</div><div>❓️ Unk</div></div>
+<div class="c"><input id="s" placeholder="Search"><button onclick="f('all')">All</button></div>
+<div class="w"><div class="h"><div>Name</div><div>Value</div><div>Dm</div><div>Tr</div></div><div id="t">
+<div class="i"><div class="b">ASTRAL STAR</div><div>5-10</div><div>✖️</div><div class="st">STABLE</div></div>
+<div class="i"><div class="b">EXECUTIONER AXE</div><div>400-600</div><div>🔥</div><div class="fl">FLUCT</div></div>
+<div class="i"><div class="r">TREE ROOT</div><div>3.1k-3.3k</div><div>❓️</div><div class="st">STABLE</div></div>
+<div class="i"><div class="r">CROWN</div><div>220-250</div><div>📊</div><div class="st">STABLE</div></div>
+<div class="i"><div class="r">MASK</div><div>1-5</div><div>✖️</div><div class="st">STABLE</div></div>
+<div class="i"><div class="pu">SEA SHELLS</div><div>0.1-0.2</div><div>🔥</div><div class="r">WTF</div></div>
+<div class="i"><div class="pu">PRESENTS</div><div>N/A</div><div>❓️</div><div class="st">STABLE</div></div>
+</div></div>
+<script>
+const s=document.getElementById('s'),r=document.querySelectorAll('.i');
+s.oninput=e=>{const v=e.target.value.toLowerCase();r.forEach(i=>i.style.display=i.textContent.toLowerCase().includes(v)?'grid':'none')};
+function f(c){s.value='';r.forEach(i=>i.style.display='grid')}
+</script></body></html>

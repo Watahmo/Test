@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>V</title>
+  <style>
+    body { background: #0a0b0d; color: #f3f4f6; font: 900 11px sans-serif; margin: 4px; }
+    .l, .c { display: flex; gap: 6px; overflow-x: auto; background: #1a1d24; padding: 4px; border-radius: 6px; margin-bottom: 4px; }
+    .l div { white-space: nowrap; }
+    input, button { background: #000; border: 1px solid #ffffff14; color: #fff; padding: 5px; border-radius: 4px; font-weight: 900; }
+    input { flex: 1; min-width: 60px; }
+    .w { overflow-x: auto; }
+    .h, .i { display: grid; grid-template-columns: 130px 70px 40px 70px; padding: 5px; background: #1a1d24; margin-bottom: 2px; border-radius: 4px; align-items: center; min-width: 310px; }
+    .h { background: none; color: #4b5563; }
+    .g { color: #F9F295; }
+    .gr { color: #32cd32; }
+    .b { color: #3b82f6; }
+    .r { color: #ef4444; }
+    .o { color: #f97316; }
+    .m { color: #d946ef; }
+    .p { color: #ec4899; }
+    .pu { color: #a855f7; }
+    .st { color: #9ca3af; }
+    .un { color: #60a5fa; }
+    .ri { color: #22c55e; }
+    .fl { color: #c084fc; }
+  </style>
+</head>
+<body>
+  
+  <div class="c">
+  <button onclick="location.href='Unit Value List.html'">🛡️ Unit List</button>
+  <button onclick="location.href='Item Value List.html'">📦 Item List</button>
+</div>
+
+  <div class="l">
+    <div>🔥 High</div>
+    <div>📊 Med</div>
+    <div>✖️ Low</div>
+    <div>❓ Unk</div>
+  </div>
+  <div class="c">
+    <input id="s" placeholder="Search">
+    <button onclick="f('all')">All</button>
+    <button onclick="f('n')">N</button>
+    <button onclick="f('s')">S</button>
+    <button onclick="f('sp')">Sp</button>
+    <button onclick="f('w')">W</button>
+  </div>
+  <div class="w">
+    <div class="h">
+      <div>Name</div>
+      <div>Value</div>
+      <div>Dm</div>
+      <div>Tr</div>
+    </div>
+    <div id="t">
+    <div class="i n"><div class="g">TRIPLE T</div><div>2.5k-2.75k</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="g">FROG MECH</div><div>1k-1.25k</div><div>🔥</div><div class="un">UNKNOWN</div></div>
+    <div class="i n"><div class="gr">FOREST WARDEN</div><div>23k-26k</div><div>❓</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">FOREST OVERSEER</div><div>22k-25k</div><div>❓</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">SUGAR SLAMMER</div><div>7.2k-7.5k</div><div>✖️</div><div class="ri">RISING</div></div>
+    <div class="i n"><div class="gr">FALLEN JESTER</div><div>650-700</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">EGG BROS</div><div>200-230</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">MR. CLAUSE</div><div>25-40</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">GARDEN GUARD</div><div>20-40</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">SHERIFF</div><div>30-40</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">ZEUS</div><div>10-20</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">TURRET MAX</div><div>10-15</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">SHOTGUNNER</div><div>40-50</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">MINIGUNNER</div><div>30-35</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">INCINERATOR</div><div>1</div><div>✖️</div><div class="r">WORTHLESS</div></div>
+    <div class="i n"><div class="gr">NULLA</div><div>45-50</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">MECH</div><div>20-25</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">EXPERIMENT 001</div><div>5-10</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">HADES</div><div>15-20</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="gr">SURFER</div><div>30-40</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="b">ABSTRACT</div><div>10-20</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="b">ASTRAL DEMON</div><div>15-25</div><div>❓</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="b">ASTRAL ANGEL</div><div>25-35</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="b">SHOWMAN</div><div>20-30</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="b">EXECUTIONER</div><div>150-250</div><div>🔥</div><div class="fl">FLUCT</div></div>
+    <div class="i n"><div class="r">DRAKO</div><div>75-90</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">MRS.CLAUSE</div><div>300-350</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">FROST QUEEN</div><div>2.5k-2.6k</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">MOON WATCHER</div><div>230-250</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">OVERLORD</div><div>200-220</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">KING</div><div>60-70</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">1X1X1X1</div><div>1.1k-1.3k</div><div>🔥</div><div class="ri">RISING</div></div>
+    <div class="i n"><div class="r">SCYLLA</div><div>900-1k</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">ASTRAL KNIGHT</div><div>30-35</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">MASQUERADE</div><div>5-10</div><div>📊</div><div class="st">STABLE</div></div>
+    <div class="i n"><div class="r">GHOST CAPTAIN</div><div>950-1k</div><div>🔥</div><div class="r">DROP</div></div>
+    <div class="i n"><div class="o">DUCKY</div><div>80-100</div><div>🔥</div><div class="r">DROP</div></div>
+    <div class="i n"><div class="pu">SKY LIGHTER</div><div>300-500</div><div>❓</div><div class="st">STABLE</div></div>
+      
+    <div class="i s"><div class="m">C_FALLEN KNT</div><div>20-30</div><div>✖️</div><div class="st">STABLE</div></div>
+    <div class="i s"><div class="p">S_FALLEN KNT</div><div>200-250</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i s"><div class="m">C_ASTRAL KNT</div><div>40-50</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i s"><div class="p">S_ASTRAL KNT</div><div>240-300</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i s"><div class="m">C_EXECUTIONER</div><div>200-300</div><div>🔥</div><div class="st">STABLE</div></div>
+    <div class="i s"><div class="p">S_EXECUTIONER</div><div>650-800</div><div>🔥 </div><div class="st">STABLE</div></div>
+      
+    <div class="i sp"><div class="p">S_MOON WTCHR</div><div>2.9k-3.1k</div><div>✖️</div><div class="ri">RISING</div></div>
+    <div class="i sp"><div class="p">S_SHERIFF</div><div>5.5k-6.5k</div><div>✖️</div><div class="ri">RISING</div></div>
+    <div class="i sp"><div class="p">S_ZEUS</div><div>3.6k-3.8k</div><div>✖️</div><div class="ri">RISING</div></div>
+    <div class="i sp"><div class="p">S_HADES</div><div>2.3k-2.7k</div><div>✖️</div><div class="ri">RISING</div></div>
+    <div class="i sp"><div class="p">S_GARDEN GD</div><div>N/A</div><div>✖️</div><div class="ri">RISING</div></div>
+      
+    <div class="i w"><div class="pu">S_SKY LIGHTER</div><div>N/A</div><div class="pu">EXIS &gt; 9</div><div></div></div>
+    <div class="i w"><div class="pu">S_CANNON</div><div>N/A</div><div class="pu">EXIS &gt; 6</div><div></div></div>
+    <div class="i w"><div class="pu">S_SELENE</div><div>N/A</div><div class="pu">EXIS &gt; 1</div><div></div></div>
+    <div class="i w"><div class="pu">S_EXP 001</div><div>N/A</div><div class="pu">EXIS &gt; 1</div><div></div></div>
+    <div class="i w"><div class="pu">S_INCINERATOR</div><div>N/A</div><div class="pu">EXIS &gt; 1</div><div></div></div>
+    <div class="i w"><div class="pu">S_GINGERBREAD</div><div>N/A</div><div class="pu">EXIS &gt; 0</div><div></div></div>
+    <div class="i w"><div class="pu">S_WINTER WDN</div><div>N/A</div><div class="pu">EXIS &gt; 0</div><div></div></div>
+    <div class="i w"><div class="pu">S_STAR HNTR</div><div>N/A</div><div class="pu">EXIS &gt; 0</div><div></div></div>
+    </div>
+  </div>
+  <script>
+    const s = document.getElementById('s'), r = document.querySelectorAll('.i');
+    s.oninput = e => {
+      const v = e.target.value.toLowerCase();
+      r.forEach(i => i.style.display = i.textContent.toLowerCase().includes(v) ? 'grid' : 'none');
+    };
+    function f(c) {
+      s.value = '';
+      r.forEach(i => i.style.display = (c === 'all' || i.classList.contains(c)) ? 'grid' : 'none');
+    }
+  </script>
+</body>
+</html>
