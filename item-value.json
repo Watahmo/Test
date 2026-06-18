@@ -1,0 +1,9 @@
+[
+  {"name": "ASTRAL STAR", "val": "5-10", "dm": "✖️", "tr": "STABLE", "trCls": "st", "nameCls": "b"},
+  {"name": "EXECUTIONER AXE", "val": "400-600", "dm": "🔥", "tr": "FLUCT", "trCls": "fl", "nameCls": "r"},
+  {"name": "TREE ROOT", "val": "3.1k-3.3k", "dm": "❓️", "tr": "STABLE", "trCls": "st", "nameCls": "r"},
+  {"name": "CROWN", "val": "220-250", "dm": "📊", "tr": "STABLE", "trCls": "st", "nameCls": "r"},
+  {"name": "MASK", "val": "1-5", "dm": "✖️", "tr": "STABLE", "trCls": "st", "nameCls": "r"},
+  {"name": "SEA SHELLS", "val": "0.1-0.2", "dm": "🔥", "tr": "WTF", "trCls": "r", "nameCls": "pu"},
+  {"name": "PRESENTS", "val": "N/A", "dm": "❓️", "tr": "STABLE", "trCls": "st", "nameCls": "pu"}
+]
