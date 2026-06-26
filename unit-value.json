@@ -14,7 +14,7 @@
   {"name": "SHOTGUNNER", "val": "40-50", "dm": "📊", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
   {"name": "MINIGUNNER", "val": "30-35", "dm": "✖️", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
   {"name": "INCINERATOR", "val": "1", "dm": "✖️", "tr": "WORTHLESS", "trCls": "r", "nameCls": "gr", "cat": "n"},
-  {"name": "NULLA", "val": "130-140", "dm": "🔥", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
+  {"name": "NULLA", "val": "160-190", "dm": "🔥", "tr": "RISING", "trCls": "ri", "nameCls": "gr", "cat": "n"},
   {"name": "MECH", "val": "20-25", "dm": "📊", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
   {"name": "EXPERIMENT 001", "val": "5-10", "dm": "✖️", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
   {"name": "HADES", "val": "15-20", "dm": "✖️", "tr": "STABLE", "trCls": "st", "nameCls": "gr", "cat": "n"},
